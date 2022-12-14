@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Flexbox 0 — starting code</title>
+    <style>
+      html {
+        font-family: sans-serif;
+      }
+
+      body {
+        margin: 0;
+      }
+
+      header {
+        background: purple;
+        height: 100px;
+      }
+
+      h1 {
+        text-align: center;
+        color: white;
+        line-height: 100px;
+        margin: 0;
+      }
+
+      article {
+        padding: 10px;
+        margin: 10px;
+        background: blue;
+        flex: 1;
+      }
+      section {
+        display: flex;
+      }
+      img {
+       max-width: 100%;
+       max-height: 100%;
+
+      }
+
+    </style>
+  </head>
+  <body>
+
+    <!--NAV-->
+    <div>
+        <div>
+            <ul>
+                <a href="#home" id="link"><li>Home</li></a>
+                <a href="#articles" id="link"><li>Articles</li></a>
+                <a href="#contact" id="link"><li>REservations</li></a>
+            </ul>
+        </div>
+    </div>
+    <!--END NAV-->
+    <div id="home">
+    <header>
+      <h1>Jump with Kiwi </h1>
+    </header>
+    </div>
+      <div>
+        <video src="./vids/mini clips 2.m4v" type="video/mp4" style="width: auto; height: auto;" controls>
+      </div>
+  
+    <section>
+        <div id="articles">
+            <article>
+                <h2>Crayon Theme Bounce House</h2>
+                <img src="./images/Thumb/crayon.jpg" alt="Crayon themed Bouncehouse">
+                <p>Tacos actually microdosing, pour-over semiotics banjo chicharrones retro fanny pack portland everyday carry vinyl typewriter. Tacos PBR&B pork belly, everyday carry ennui pickled sriracha normcore hashtag polaroid single-origin coffee cold-pressed. PBR&B tattooed trust fund twee, leggings salvia iPhone photo booth health goth gastropub hammock.</p>
+            </article>
+
+            <article>
+                <h2>Jungle Themed Bounce House Slide Combo</h2>
+                <img src="./images/Thumb/jungle combo.jpg" alt=" Jungle Combo Bouncehouse">
+                <p>Tacos actually microdosing, pour-over semiotics banjo chicharrones retro fanny pack portland everyday carry vinyl typewriter. Tacos PBR&B pork belly, everyday carry ennui pickled sriracha normcore hashtag polaroid single-origin coffee cold-pressed. PBR&B tattooed trust fund twee, leggings salvia iPhone photo booth health goth gastropub hammock.</p>
+            </article>
+
+            <article>
+                <h2>Water Slide</h2>
+                <Img src="./images/Thumb/water slide pics.jpg" alt="Water Slide">   
+
+                <p>Tacos actually microdosing, pour-over semiotics banjo chicharrones retro fanny pack portland everyday carry vinyl typewriter. Tacos PBR&B pork belly, everyday carry ennui pickled sriracha normcore hashtag polaroid single-origin coffee cold-pressed. PBR&B tattooed trust fund twee, leggings salvia iPhone photo booth health goth gastropub hammock.</p>
+
+                <p>Cray food truck brunch, XOXO +1 keffiyeh pickled chambray waistcoat ennui. Organic small batch paleo 8-bit. Intelligentsia umami wayfarers pickled, asymmetrical kombucha letterpress kitsch leggings cold-pressed squid chartreuse put a bird on it. Listicle pickled man bun cornhole heirloom art party.</p>
+            </article>
+        </div>    
+    </section>
+    <div id="contact">
+    <form action=" " method="post">
+      <input class="rsvp" type="text" name="First Name">
+      <input class="rsvp" type="text" name="Last Name">
+      <input class="rsvp" type="text" name="Email Address">
+      <input class="rsvp" type="text" name="Phone Number">
+      <div class="form-spacer">
+          <label class="terms">Terms and Conditions</label>
+      </div>
+      <div>
+          <input type="submit" value="Submit">
+      </div>
+  </form>
+      
+    
+    
+  </body>
+    <footer>
+    <label class="terms">Terms and Conditions</label>
+    </footer>
+</html>

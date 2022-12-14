@@ -1,0 +1,100 @@
+.container{
+  font-family: 'Times New Roman', Times, serif; text-align: center;
+}
+div { display:block ;
+
+}
+.title {
+  text-align: center;
+  border: dimgray;
+  color: black;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+  grid-template-rows: 100px 100px;
+  gap: 10px;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 3px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+<style>
+.container {
+  position: relative;
+  width: 40%;
+}
+
+.img {
+  display: block;
+  width: 100%;
+  height: auto;
+  align-content: flex-end;
+}
+
+.overlay {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+h1, h2, p {
+  color: white;
+  font-size: 20px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+div {
+  background-color: lightgrey;
+  width: 30px;
+  border: 1px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+.grid-container {
+  display: grid;
+  justify-content: space-evenly;
+  grid-template-columns: 50px 50px 50px; /*Make the grid smaller than the container*/
+  gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
