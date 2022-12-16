@@ -19,7 +19,7 @@ h1 {
 /*--------------------------------------------------------
     SELECT ALL SQUARES IN THE ARRAY
 ---------------------------------------------------------*/
-.squares:nth-child(-n+4){
+.container .squares:nth-child(-n+4){
     background-image: url("../Icons/icons1.png");
     color: #fff;
     float: left;
@@ -65,7 +65,7 @@ h1 {
 /* --------------------------------------------------
 HOVER, TRANSLATE & TRANSFORM EFFECTS
 -----------------------------------------------------*/
-.squares:nth-child(-n+4):hover{
+.container .squares:nth-child(-n+4):hover{
     background-image: url("../Icons/icons2.png");
     transform: scale(.5);
     animation-name: race;
