@@ -19,8 +19,8 @@ h1 {
 /*--------------------------------------------------------
     SELECT ALL SQUARES IN THE ARRAY
 ---------------------------------------------------------*/
-.container .squares:nth-child(-n+4) {
-    background-image: url("./Icons/icons1.png");
+.container .squares:nth-child(-n=4){
+    background-image: url("./Icons/icons1.png")
     color: #fff;
     float: left;
     width: 100px;
@@ -35,7 +35,7 @@ h1 {
 /* ----------------------------------------------------
     INDIVIDUALLY SELECT A PARAGRAPHS IN THE ARRAY
 -------------------------------------------------------*/
-.squares:nth-child(n+4) p{
+.squares:nth-child(-n+4) p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.5em;
     font-weight: 900;
@@ -66,7 +66,7 @@ h1 {
 HOVER, TRANSLATE & TRANSFORM EFFECTS
 -----------------------------------------------------*/
 .container .squares:nth-child(-n+4):hover{
-    background-image: url(./Icons/icons1.png);
+    background-image: url("./Icons/icons1.png");
     transform: scale(.5);
     animation-name: race;
     animation-duration: 2.5s;
@@ -95,7 +95,7 @@ HOVER, TRANSLATE & TRANSFORM EFFECTS
 @keyframes race {
     0%, 100% {
         transform: translateY(0px);
-        background-image: url(./Icons/icons2.png);
+        background-image: url("./Icons/icons2.png");
     }
     50% {
         transform: translateY(330px);
