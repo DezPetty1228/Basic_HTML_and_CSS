@@ -38,11 +38,11 @@
 input[type=text] {
     width: 100%;
     margin: auto;
-    border: 2px solid red;
+    border: 1px solid white;
     border-radius: 4px;
 }
 img { width: 100%;
-    height: auto;
+    height: 100%;
     overflow: hidden;
     align-items: center;
 }
