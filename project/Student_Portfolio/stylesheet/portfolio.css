@@ -19,7 +19,7 @@ h1 {
 /* Heading 1 element hover effect */
 h1:hover {
     color: black;
-    box-shadow: inset:100%  0 0 0 ;
+    box-shadow: inset 100%  0 0 0 ;
 }
 
 /* Styling for portfolio title text */
@@ -85,7 +85,7 @@ img {
 img:hover {
 	filter: grayscale(10%);  /* Brings back most of the image's color when hovered over */
     transition: transform 1s; /* Transition lasts 1 second */
-	transform: scale(1.1); /* Image is increased slightly when hovered over */
+	transform: scale(1.3); /* Image is increased slightly when hovered over */
 }
 
 /* The @media rule is used in media queries to apply different styles for different media/types of devices */
