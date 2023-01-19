@@ -1,20 +1,19 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head><header>Flexbox</header>
+  <head><header>One Page website</header>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>one-page_website</title>
-    <link rel="stylesheet" href="css/demo.css">
+    <link rel="stylesheet" href="css/One-Page-website.css">
   </head>
   <body>
     <!--NAV-->
     <section class="menu"></section>
       <ul>
           <a href="#home" id="link"><li>Home</li></a>
-          <a href="#articles" id="link"><li>Articles</li></a>
           <a href="#contact" id="link"><li>REservations</li></a>
       </ul>
-
+    </section>
     <div class="row">
       <div class="column">
         <img src="images/Thumb/crayon.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
@@ -73,22 +72,20 @@
           <div class="column">
             <img class="demo cursor" src="images/Thumb/water slide pics.jpg" style="width:100%" onclick="currentSlide(4)" alt="13ft by 10ft Waterslide">
           </div>
-      
-    
+        </div>
       
 
-    <div id="contact">
+<div id="contact">
   <form action=" " method="post">
       <input class="rsvp" type="text" name="First Name">
       <input class="rsvp" type="text" name="Last Name">
       <input class="rsvp" type="text" name="Email Address">
       <input class="rsvp" type="text" name="Phone Number">
-      <div class="form-spacer">
-          
-      </div>
-      <div>
-          <input type="submit" value="Submit">
-      </div>
+      <div class="form-spacer">     
+</div>
+    <div>
+      <input type="submit" value="Submit">
+    </div>
   </form>
     <script src="JavaScript/One-Page-Website.js" defer></script>
   </body>
