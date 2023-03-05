@@ -1,0 +1,85 @@
+body {
+    background-color:gray;
+    }
+
+h1 {
+    font-family:fantasy;
+    color:black;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    text-shadow: black;
+    }
+
+h3 {
+    font-family: Verdana;
+    color: blanchedalmond;
+    text-align: center;
+    }
+
+div {
+    font-family: cursive;
+    color: black;
+    text-align: center;
+    }
+
+#menuBG {
+    width: 400px;
+    height: 470px;
+    margin: 10px auto;
+    }
+
+#frmMenu {
+    width: 600px;
+    height: 200px;
+    }
+
+#totalPrice {
+    width: 200px;
+    height: 190px;
+    margin: 20px auto;
+    float:right;
+    }
+
+.left {
+    width: 200px;
+    height: 200px;
+    float: left;
+    }
+
+.center {
+    width: 200px;
+    height: 200px;
+    float: left;
+    }
+
+.right {
+    width: 200px;
+    height: 180px;
+    float: right;   
+    }
+
+#showText {
+    width: 200px;
+    height: 180px;
+    margin: 0px auto;
+    float: left;
+    display: block;
+    }
+
+#cart {
+    font-family: fantasy;
+    top: 2px; margin: 0px auto;
+    width: 400px;
+    height: 200px;
+    display: block;
+    }
+
+#btnOrder {
+    background-color: blueviolet;
+    padding:1px;
+    width: 100px;
+    height: 40px;
+    margin: 25px auto;
+    color: blanchedalmond;
+    }
